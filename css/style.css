@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+a, li{
+    text-decoration: none;  
+    list-style: none;
+    color: black;
+    font-weight: 500;
+}
+.btn{
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+/* ------------Nav Bar ---------- */
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 0 0 6px grey;
+    display:block;
+    width: 100%;
+    /* margin-top: 0; */
+    background-color: white;
+}
+.topNav{
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 12px;
+}
+.logo{
+    margin: 14px 34px;
+}
+.lists ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lists button{
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+
+.lists ul li{
+    font-size: 1.2rem;
+    /* padding-left: 24px; */
+    margin: 10px 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.downNav{
+    display: flex;
+    /* display: block; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 8px;
+    margin: 0px 20px;
+    /* box-shadow: 0 0 4px grey; */
+}
+.downNav ul li{
+    font-size: 1rem;
+}
+.downNav button{
+    font-size: 1rem;
+}
+
+/* -----------------Main ------------- */
+main{
+    /* display: flex; */
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+    /* height: 4000px; */
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+.about{
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+    /* z-index: 5; */
+    /* flex-basis: 80%; */
+    /* margin: auto; */
+}
+.aboutItems{
+    /* width: 40%; */
+    margin: 50px;
+    text-align: left;
+}
+.aboutItems h3{
+    padding-bottom: 23px;
+    font-size: 1.3rem;
+}
+.aboutItems .aboutPara{
+    padding-bottom: 23px;
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+}
+.aboutItems .btn{
+    font-size: 0.8rem;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+.aboutImg img{
+    width: 500px;
+    /* flex-basis: 40%; */
+}
+
+/* ------------Courses Section--------- */
+
+.cardHolder{
+    display: flex;
+    justify-content: space-between;
+    margin: 23px;
+    /* align-items: space-between; */
+}
+.cards h1{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.card{
+    /* height: 20vh; */
+    width: 32%;
+    background-color: white;
+    box-shadow: 0 0 6px 0 gray;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.allInfo{
+    margin: 20px;
+}
+.allInfo p{
+    font-size: 1rem;
+}
+.allInfo h3, p{
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+.allInfo .btn{
+    margin-bottom: 10px;
+}
+
+/* testimonials------------------- */
+.testimonies{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    /* align-items: center; */
+    /* background-color: red; */
+}
+
+.tHolder{
+    /* width: 100%; */
+    padding: 34px;
+    margin: 13px;
+    /* margin: auto; */
+    background-color: rgb(238, 239, 239);
+}
+.tHolder .para{
+    line-height: 30px;
+}
+.tHolder .name{
+    margin: 23px;
+}
+
+/* ------------footer-------- */
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.cwh
+{
+    align-items: center;
+    margin-right: 23px;
+    margin-left: 23px;
+
+}
+.left{
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.left p{
+    margin-left: 23px;
+    
+}
+footer .btn{
+    margin-right: 8px;
+    justify-content: space-evenly;
+}
