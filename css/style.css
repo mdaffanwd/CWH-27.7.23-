@@ -3,8 +3,40 @@
     padding: 0;
     /* box-sizing: border-box; */
     font-family: Arial, Helvetica, sans-serif;
+ }
+ /*
+.search {
+    width: 100%;
+    margin-bottom: 10px;
 }
-
+.search input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-size: 1rem;
+    text-align: center;
+}
+i {
+    padding: 8px;
+}
+.search i {
+    position: absolute;
+    min-width: 20px;
+    width: 10px;
+    padding-left: 3px;
+    border: 2px solid red; 
+}
+*/
+ 
+button{
+    cursor:grab;
+}
+i{
+    cursor: pointer;
+}
 h1 {
     font-size: 1.8rem;
 }
@@ -80,6 +112,13 @@ nav{
     padding: 8px;
     margin: 0px 20px;
     /* box-shadow: 0 0 4px grey; */
+}
+i {
+    font-size: 2rem;
+    padding-right: 23px;
+}
+.ri-home-2-fill{
+
 }
 .downNav ul li{
     font-size: 1rem;
